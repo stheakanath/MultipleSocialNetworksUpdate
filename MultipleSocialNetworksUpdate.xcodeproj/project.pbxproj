@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB64E8CF15C7413500F3D72C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB64E8CE15C7413500F3D72C /* UIKit.framework */; };
+		EB64E8D115C7413500F3D72C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB64E8D015C7413500F3D72C /* Foundation.framework */; };
+		EB64E8D315C7413500F3D72C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB64E8D215C7413500F3D72C /* CoreGraphics.framework */; };
+		EB64E8D915C7413500F3D72C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EB64E8D715C7413500F3D72C /* InfoPlist.strings */; };
+		EB64E8DB15C7413500F3D72C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB64E8DA15C7413500F3D72C /* main.m */; };
+		EB64E8DF15C7413500F3D72C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB64E8DE15C7413500F3D72C /* AppDelegate.m */; };
+		EB64E8E215C7413500F3D72C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB64E8E115C7413500F3D72C /* ViewController.m */; };
+		EB64E8E515C7413500F3D72C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB64E8E315C7413500F3D72C /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EB64E8CA15C7413500F3D72C /* MultipleSocialNetworksUpdate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultipleSocialNetworksUpdate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB64E8CE15C7413500F3D72C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EB64E8D015C7413500F3D72C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EB64E8D215C7413500F3D72C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EB64E8D615C7413500F3D72C /* MultipleSocialNetworksUpdate-Info.plist */ = {isa = PBXFileReference; path = "MultipleSocialNetworksUpdate-Info.plist"; sourceTree = "<group>"; };
+		EB64E8D815C7413500F3D72C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EB64E8DA15C7413500F3D72C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EB64E8DC15C7413500F3D72C /* MultipleSocialNetworksUpdate-Prefix.pch */ = {isa = PBXFileReference; path = "MultipleSocialNetworksUpdate-Prefix.pch"; sourceTree = "<group>"; };
+		EB64E8DD15C7413500F3D72C /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		EB64E8DE15C7413500F3D72C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EB64E8E015C7413500F3D72C /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		EB64E8E115C7413500F3D72C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EB64E8E415C7413500F3D72C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB64E8C715C7413500F3D72C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB64E8CF15C7413500F3D72C /* UIKit.framework in Frameworks */,
+				EB64E8D115C7413500F3D72C /* Foundation.framework in Frameworks */,
+				EB64E8D315C7413500F3D72C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB64E8BF15C7413400F3D72C = {
+			isa = PBXGroup;
+			children = (
+				EB64E8D415C7413500F3D72C /* MultipleSocialNetworksUpdate */,
+				EB64E8CD15C7413500F3D72C /* Frameworks */,
+				EB64E8CB15C7413500F3D72C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB64E8CB15C7413500F3D72C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB64E8CA15C7413500F3D72C /* MultipleSocialNetworksUpdate.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB64E8CD15C7413500F3D72C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB64E8CE15C7413500F3D72C /* UIKit.framework */,
+				EB64E8D015C7413500F3D72C /* Foundation.framework */,
+				EB64E8D215C7413500F3D72C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB64E8D415C7413500F3D72C /* MultipleSocialNetworksUpdate */ = {
+			isa = PBXGroup;
+			children = (
+				EB64E8DD15C7413500F3D72C /* AppDelegate.h */,
+				EB64E8DE15C7413500F3D72C /* AppDelegate.m */,
+				EB64E8E015C7413500F3D72C /* ViewController.h */,
+				EB64E8E115C7413500F3D72C /* ViewController.m */,
+				EB64E8E315C7413500F3D72C /* ViewController.xib */,
+				EB64E8D515C7413500F3D72C /* Supporting Files */,
+			);
+			path = MultipleSocialNetworksUpdate;
+			sourceTree = "<group>";
+		};
+		EB64E8D515C7413500F3D72C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB64E8D615C7413500F3D72C /* MultipleSocialNetworksUpdate-Info.plist */,
+				EB64E8D715C7413500F3D72C /* InfoPlist.strings */,
+				EB64E8DA15C7413500F3D72C /* main.m */,
+				EB64E8DC15C7413500F3D72C /* MultipleSocialNetworksUpdate-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB64E8C915C7413500F3D72C /* MultipleSocialNetworksUpdate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB64E8E815C7413500F3D72C /* Build configuration list for PBXNativeTarget "MultipleSocialNetworksUpdate" */;
+			buildPhases = (
+				EB64E8C615C7413500F3D72C /* Sources */,
+				EB64E8C715C7413500F3D72C /* Frameworks */,
+				EB64E8C815C7413500F3D72C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultipleSocialNetworksUpdate;
+			productName = MultipleSocialNetworksUpdate;
+			productReference = EB64E8CA15C7413500F3D72C /* MultipleSocialNetworksUpdate.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB64E8C115C7413400F3D72C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = EB64E8C415C7413400F3D72C /* Build configuration list for PBXProject "MultipleSocialNetworksUpdate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EB64E8BF15C7413400F3D72C;
+			productRefGroup = EB64E8CB15C7413500F3D72C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB64E8C915C7413500F3D72C /* MultipleSocialNetworksUpdate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB64E8C815C7413500F3D72C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB64E8D915C7413500F3D72C /* InfoPlist.strings in Resources */,
+				EB64E8E515C7413500F3D72C /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB64E8C615C7413500F3D72C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB64E8DB15C7413500F3D72C /* main.m in Sources */,
+				EB64E8DF15C7413500F3D72C /* AppDelegate.m in Sources */,
+				EB64E8E215C7413500F3D72C /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EB64E8D715C7413500F3D72C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB64E8D815C7413500F3D72C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EB64E8E315C7413500F3D72C /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB64E8E415C7413500F3D72C /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB64E8E615C7413500F3D72C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EB64E8E715C7413500F3D72C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB64E8E915C7413500F3D72C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultipleSocialNetworksUpdate/MultipleSocialNetworksUpdate-Prefix.pch";
+				INFOPLIST_FILE = "MultipleSocialNetworksUpdate/MultipleSocialNetworksUpdate-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EB64E8EA15C7413500F3D72C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultipleSocialNetworksUpdate/MultipleSocialNetworksUpdate-Prefix.pch";
+				INFOPLIST_FILE = "MultipleSocialNetworksUpdate/MultipleSocialNetworksUpdate-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB64E8C415C7413400F3D72C /* Build configuration list for PBXProject "MultipleSocialNetworksUpdate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB64E8E615C7413500F3D72C /* Debug */,
+				EB64E8E715C7413500F3D72C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB64E8E815C7413500F3D72C /* Build configuration list for PBXNativeTarget "MultipleSocialNetworksUpdate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB64E8E915C7413500F3D72C /* Debug */,
+				EB64E8EA15C7413500F3D72C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB64E8C115C7413400F3D72C /* Project object */;
+}
