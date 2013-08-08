@@ -22,13 +22,13 @@
 		EB64E8CE15C7413500F3D72C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EB64E8D015C7413500F3D72C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EB64E8D215C7413500F3D72C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		EB64E8D615C7413500F3D72C /* MultipleSocialNetworksUpdate-Info.plist */ = {isa = PBXFileReference; path = "MultipleSocialNetworksUpdate-Info.plist"; sourceTree = "<group>"; };
+		EB64E8D615C7413500F3D72C /* MultipleSocialNetworksUpdate-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MultipleSocialNetworksUpdate-Info.plist"; sourceTree = "<group>"; };
 		EB64E8D815C7413500F3D72C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EB64E8DA15C7413500F3D72C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EB64E8DC15C7413500F3D72C /* MultipleSocialNetworksUpdate-Prefix.pch */ = {isa = PBXFileReference; path = "MultipleSocialNetworksUpdate-Prefix.pch"; sourceTree = "<group>"; };
-		EB64E8DD15C7413500F3D72C /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		EB64E8DC15C7413500F3D72C /* MultipleSocialNetworksUpdate-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MultipleSocialNetworksUpdate-Prefix.pch"; sourceTree = "<group>"; };
+		EB64E8DD15C7413500F3D72C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EB64E8DE15C7413500F3D72C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EB64E8E015C7413500F3D72C /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		EB64E8E015C7413500F3D72C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		EB64E8E115C7413500F3D72C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EB64E8E415C7413500F3D72C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
